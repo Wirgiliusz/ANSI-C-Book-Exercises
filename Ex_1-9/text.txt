@@ -1,0 +1,2 @@
+This text has random double  or triple   spaces that needs to be removed.
+Even quadruple    spaces.
