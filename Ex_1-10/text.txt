@@ -1,0 +1,2 @@
+This text consist of some tabulators	and backslash symbols \.
+When they are used	they symbols are printed \.
