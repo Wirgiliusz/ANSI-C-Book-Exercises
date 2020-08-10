@@ -2,7 +2,6 @@
 
 int main() {
     int character;
-    int expression;
 
     while(1) {
         character = getchar();
