@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_WORD_LENGTH 20
+#define MAX_WORD_LENGTH 10
 #define IN_WORD 1
 #define OUT_WORD 0
 
@@ -29,7 +29,17 @@ int main() {
     }
 
     printf("%5s %5s", "Len", "Count\n");
+    /*
     for(int i=0; i<MAX_WORD_LENGTH; i++) {
         printf("%5d %5d\n", i, nword[i]);
+    }
+    */
+
+    for(int i=0; i<MAX_WORD_LENGTH; i++) {
+        printf("%5d ", i);
+        for(int j=0; j<nword[i]; j++) {
+            printf("|");
+        }
+        printf("\n");
     }
 }
