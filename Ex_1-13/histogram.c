@@ -29,14 +29,8 @@ int main() {
     }
 
     printf("%5s %5s", "Len", "Count\n");
-    /*
     for(int i=0; i<MAX_WORD_LENGTH; i++) {
-        printf("%5d %5d\n", i, nword[i]);
-    }
-    */
-
-    for(int i=0; i<MAX_WORD_LENGTH; i++) {
-        printf("%5d ", i);
+        printf("%5d %5d ", i, nword[i]);
         for(int j=0; j<nword[i]; j++) {
             printf("|");
         }
