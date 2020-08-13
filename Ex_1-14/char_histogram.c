@@ -7,7 +7,7 @@ int main() {
     int nchar[CHARACTER_COUNT] = {0};
 
     while((character = getchar()) != EOF) {
-        nchar[character] += 1;
+        nchar[character-32] += 1;
     }
 
     printf("%5s %5s", "Char", "Count\n");
